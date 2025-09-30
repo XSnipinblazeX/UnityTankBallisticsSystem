@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ae7e6a7a53b57bc0b8ffccefd71e62d, type: 3}
+  m_Name: Armor
+  m_EditorClassIdentifier: 
+  armorData:
+    spallPrefab: {fileID: 114839090480401972, guid: b40aa194af0a107128377b0d14bac7f7, type: 3}
+    spallData: {fileID: 11400000, guid: bb0d933025051a62aa21dd270e4d350c, type: 2}
+    BHN: 350
+    rho_t: 7850
+    kineticMultiplier: 1
+    chemicalMultiplier: 0.5
+    thicknessSource: 0
+    spallAngleMultiplier: 1
+    spallPowerMultiplier: 1
+    maxSpallCount: 15
+    spallAngle: 75
+    CanRicochet: 1
+    HarderIsBetter: 1
