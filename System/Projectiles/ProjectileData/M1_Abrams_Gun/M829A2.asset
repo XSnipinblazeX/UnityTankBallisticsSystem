@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dd9e317d2225da07ab626cdbc5d1bd9, type: 3}
+  m_Name: M829A2
+  m_EditorClassIdentifier: 
+  projectileData:
+    spallPrefab: {fileID: 114839090480401972, guid: 8187289c54787de4ab362ff3f019c739, type: 3}
+    spallData: {fileID: 11400000, guid: bb0d933025051a62aa21dd270e4d350c, type: 2}
+    VisualMesh: {fileID: 88660835203310364, guid: 621d2b0e324f19038b422297b6a4dcdb, type: 3}
+    MuzzleSpinRPS: 0
+    MagnusCoefficient: 0.0000005
+    RestoringCoefficient: 0.00001
+    DampingCoefficient: 0.00005
+    SpinDecayCoefficient: 0.0000001
+    MomentOfInertia: 1
+    StabilityThreshold: 1
+    muzzleVelocity: 1670
+    ballisticCoefficient: 1
+    dragModel: 1
+    penetratorType: 0
+    projectileType: 2
+    lw: 1
+    d: 0.035
+    DeMarreeCoefficients: {x: 1.4, y: 2000}
+    m: 4.3
+    pM: 0
+    rho_p: 750
+    bhnp: 500
+    material: 2
+    FinStabilized: 1
+    ricochetChance:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.1391731
+        value: 1
+        inSlope: -0.0065127974
+        outSlope: -0.0065127974
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 1
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.2495575
+        value: 0.4994049
+        inSlope: -0.899514
+        outSlope: -0.899514
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.12832104
+      - serializedVersion: 3
+        time: 0.4617225
+        value: -0.008331299
+        inSlope: 0.005371788
+        outSlope: 0.005371788
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 1
+        outWeight: 0.9973427
+      - serializedVersion: 3
+        time: 1.0032959
+        value: -0.00030517578
+        inSlope: 0.0042294464
+        outSlope: 0.0042294464
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 1
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    fuseType: 3
+    ExplosiveMassKG: 0
+    delayType: 0
+    targetFuseDistance: 1
+    ShapedCharge: 0
+    jetPrefab: {fileID: 0}
+    jetData: {fileID: 0}
+    jetDissolveRate: 0.5
